@@ -1,0 +1,12 @@
+.move-ball {
+    padding: 0;
+    height: 2vh;
+    width: 2vh;
+    border: none;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.move-ball.active {
+    background-color: #aaaaaa;
+}

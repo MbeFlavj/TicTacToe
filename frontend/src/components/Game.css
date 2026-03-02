@@ -1,0 +1,27 @@
+.game {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+
+.history-navigation {
+    display: flex;
+    gap: 1vh;
+}
+
+.past-moves {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1vh;
+    max-width: 15vh;
+    overflow-x: auto;
+    box-sizing: border-box;
+}
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

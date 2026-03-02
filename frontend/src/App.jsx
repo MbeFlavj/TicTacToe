@@ -1,10 +1,10 @@
 import { useState } from 'react'
-import Board from './components/Board.jsx'
+import Game from './components/Game'
 
 function App() {
   return (
     <>
-      <Board></Board>
+      <Game />
     </>
   )
 }

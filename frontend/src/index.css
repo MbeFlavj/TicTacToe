@@ -16,10 +16,10 @@
 #root {
   margin: 0;
   display: flex;
-  flex-flow: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
+  gap: 10vh;
 }
 
 body {
@@ -28,15 +28,13 @@ body {
   min-height: 100vh;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.page-header {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  padding-top: 15px;
+  font-size: 150%;
+  font-weight: 600;
 }

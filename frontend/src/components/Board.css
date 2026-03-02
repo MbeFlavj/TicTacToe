@@ -1,9 +1,16 @@
 .status {
-    font-size: 110%;
+    font-size: 130%;
     padding-bottom: 15px;
 }
 
 .board {
-    display: grid; 
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.board-grid {
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
